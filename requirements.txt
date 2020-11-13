@@ -2,3 +2,4 @@ colorama
 sys
 zlib
 socket
+pycryptodome
