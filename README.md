@@ -27,3 +27,8 @@ Modules.bytexorhandler.bytexor_menu()
 Modules.text2hexhandler.text2hex_menu()
 ```
 <img src=/img/text2hex.gif><br/>
+# KeyComputing
+```python3
+Modules.keycomputinghandler.keycomputing_menu()
+```
+<img src=/img/keycomputing.gif><br/>
