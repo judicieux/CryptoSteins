@@ -47,9 +47,10 @@ def handler():
             a = f"""{Fore.BLUE}
          [+] Usage [+]
 
-        [Rot47]   > 1 
-        [Zlib]    > 2      
-        [ByteXor] > 3
+        [Rot47]    > 1 
+        [Zlib]     > 2      
+        [ByteXor]  > 3
+        [Text2Hex] > 4
         [Exit]    > exit
              """
             print(a)
