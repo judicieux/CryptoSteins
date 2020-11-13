@@ -22,3 +22,8 @@ Modules.zlibhandler.zlib_menu()
 Modules.bytexorhandler.bytexor_menu()
 ```
 <img src="https://media.discordapp.net/attachments/768928242467340328/776628842486956052/Action_13-11-2020_03-00-39.gif?width=740&height=285"><br/>
+# Text2Hex
+```python3
+Modules.text2hexhandler.text2hex_menu()
+```
+<img src="https://media.discordapp.net/attachments/768928242467340328/776790198411067432/Action_13-11-2020_13-41-09.gif"><br/>
