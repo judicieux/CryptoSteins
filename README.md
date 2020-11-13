@@ -2,7 +2,7 @@
 CryptoSteins is a flexible framework for cryptographie that brings together fairly widespread algorithms
 # Requirements
 First install the requirements to not miss the libraries 
-```red
+```py
 pip3 install -r requirements.txt
 ```
 # Main
