@@ -5,6 +5,7 @@ import Modules.rot47handler
 import Modules.zlibhandler
 import Modules.bytexorhandler
 import Modules.text2hexhandler
+import Modules.keycomputinghandler
 
 def clear():
     cls = lambda: os.system('cls')
@@ -43,14 +44,18 @@ def handler():
         elif menu_handler == "4":
             Modules.text2hexhandler.text2hex_menu()
 
+        elif menu_handler == "5":
+            Modules.keycomputinghandler.keycomputing_menu()
+
         elif menu_handler == "help":
             a = f"""{Fore.BLUE}
          [+] Usage [+]
 
-        [Rot47]    > 1 
-        [Zlib]     > 2      
-        [ByteXor]  > 3
-        [Text2Hex] > 4
+        [Rot47]        > 1 
+        [Zlib]         > 2      
+        [ByteXor]      > 3
+        [Text2Hex]     > 4
+        [KeyComputing] > 5
         [Exit]    > exit
              """
             print(a)
