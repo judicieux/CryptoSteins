@@ -2,6 +2,7 @@ from colorama import Fore, Style, init
 
 def text2hex():
     text = input(f"{Fore.RED}[Text2Hex] > ")
+    
     try:
         if text == "help":
             a = f"""{Fore.BLUE}
