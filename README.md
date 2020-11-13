@@ -1,4 +1,5 @@
-<img src="https://forthebadge.com/images/badges/built-with-love.svg"><br/><img src="https://forthebadge.com/images/badges/made-with-python.svg" height="30" length="30">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg">
+<img src="https://forthebadge.com/images/badges/made-with-python.svg" height="40" length="40">
 # CryptoSteins
 CryptoSteins is a flexible framework for cryptographie that brings together fairly widespread algorithms
 # Requirements
