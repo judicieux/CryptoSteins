@@ -6,7 +6,6 @@ First install the requirements to not miss the external libraries
 pip3 install -r requirements.txt
 ```
 # Main
-<img src="https://media.discordapp.net/attachments/768928242467340328/776620482979299328/unknown.png"><br/>
 ```red + yellow
  ██████╗██████╗ ██╗   ██╗██████╗ ████████╗ ██████╗ ███████╗████████╗███████╗██╗███╗   ██╗███████╗
 ██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔═══██╗██╔════╝╚══██╔══╝██╔════╝██║████╗  ██║██╔════╝
