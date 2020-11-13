@@ -4,6 +4,7 @@ import socket
 import Modules.rot47handler
 import Modules.zlibhandler
 import Modules.bytexorhandler
+import Modules.text2hexhandler
 
 def clear():
     cls = lambda: os.system('cls')
@@ -39,6 +40,9 @@ def handler():
         elif menu_handler == "3":
             Modules.bytexorhandler.bytexor_menu()
 
+        elif menu_handler == "4":
+            Modules.text2hexhandler.text2hex()
+
         elif menu_handler == "help":
             a = f"""{Fore.BLUE}
          [+] Usage [+]
@@ -54,6 +58,7 @@ def handler():
             clear()
 
         elif menu_handler == "exit":
+            print(f"{Fore.YELLOW}[+] Exit [+]")
             exit()
 
         elif menu_handler != "":
