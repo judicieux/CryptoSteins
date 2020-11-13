@@ -41,7 +41,7 @@ def handler():
             Modules.bytexorhandler.bytexor_menu()
 
         elif menu_handler == "4":
-            Modules.text2hexhandler.text2hex()
+            Modules.text2hexhandler.text2hex_menu()
 
         elif menu_handler == "help":
             a = f"""{Fore.BLUE}
