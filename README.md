@@ -11,7 +11,7 @@ pip3 install -r requirements.txt
 ```python3
 Modules.rot47handler.rot47_menu()
 ```
-<img src="https://media.discordapp.net/attachments/768928242467340328/776624368251043850/Action_13-11-2020_02-42-09_1.gif"><br/>
+<img src=/img/rot47.gif><br/>
 # Zlib
 ```python3
 Modules.zlibhandler.zlib_menu()
