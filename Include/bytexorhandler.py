@@ -15,8 +15,8 @@ def bytexor_menu():
           if (i == len(key)):
             i = 0
 
-        final2 = str(final).replace('[', "'").replace(']', '').replace("'", '').replace(',', '').replace(' ', '')
-        print(f"{Fore.YELLOW}" + final2)
+        finaloutput = str(final).replace('[', "'").replace(']', '').replace("'", '').replace(',', '').replace(' ', '')
+        print(f"{Fore.YELLOW}" + finaloutput)
         bytexor_menu()
 
     elif bytexor == "help":
