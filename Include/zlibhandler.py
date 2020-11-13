@@ -44,3 +44,9 @@ def zlib_menu():
 
     except FileNotFoundError:
         zlib_menu()
+
+    except SyntaxError:
+        print("[+] Error [+]")
+
+    except ValueError:
+        print("[+] Error [+]")
