@@ -1,11 +1,13 @@
 from colorama import Fore, Style, init
 import os
 import socket
-import Include.rot47handler
-import Include.zlibhandler
+import Modules.rot47handler
+import Modules.zlibhandler
+import Modules.bytexorhandler
 
 def clear():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    cls = lambda: os.system('cls')
+    cls()
 
 def logo():
     logo = f"""{Fore.RED}
@@ -29,26 +31,24 @@ def handler():
         menu_handler = input(f"{Fore.RED}Steins@" + f"{hostname} > ")
 
         if menu_handler == "1":
-            Include.rot47handler.rot47_menu()
+            Modules.rot47handler.rot47_menu()
 
         elif menu_handler == "2":
-            Include.zlibhandler.zlib_menu()
+            Modules.zlibhandler.zlib_menu()
 
         elif menu_handler == "3":
-            print("\n Student Record Found")
+            Modules.bytexorhandler.bytexor_menu()
 
-        elif menu_handler == 'help':
+        elif menu_handler == "help":
             a = f"""{Fore.BLUE}
-        [+] Usage [+]
+         [+] Usage [+]
 
-         [Rot47] > 1 
-         [zlib] > 2      
-         [Exit] > exit
+        [Rot47]   > 1 
+        [Zlib]    > 2      
+        [ByteXor] > 3
+        [Exit]    > exit
              """
             print(a)
-
-        elif menu_handler == "4":
-            print("\n Goodbye")
 
         elif menu_handler == "clear":
             clear()
