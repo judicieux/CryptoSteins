@@ -20,7 +20,7 @@ def logo():
 ╚██████╗██║  ██║   ██║   ██║        ██║   ╚██████╔╝███████║   ██║   ███████╗██║██║ ╚████║███████║
  ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝ ╚══════╝   ╚═╝   ╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝                                                                                                                                                                                                                                                       
 
-            [+] By goosebumps 4 Steins [+]
+            [+] By hypostat1c for SteinsGroup [+]
         [+] To see manual of commands do "help" [+]   
 """
     print(logo)
